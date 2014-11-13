@@ -1681,7 +1681,7 @@
      * @memberOf R
      * @category core
      * @category List
-     * @sig (a,b,i,[b] -> a -> [b] -> a
+     * @sig (a,b,i,[b] -> a) -> [b] -> a
      * @param {Function} fn The iterator function. Receives four values: the accumulator, the
      *        current element from `list`, that element's index, and the entire `list` itself.
      * @param {*} acc The accumulator value.
